@@ -1,8 +1,11 @@
 package model;
 
 import java.util.Date;
+import tools.easyIO;
 
 public class Requisicao {
+	private easyIO io = new easyIO();
+	
 	private int id_requisicao;
 	private iRequisitavel itemRequisitado;
 	private Entidade requisitante;
