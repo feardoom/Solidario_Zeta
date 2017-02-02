@@ -6,6 +6,10 @@ public class Item implements iRequisitavel {
 	private String tipoQuantidade;
 	private int quantidade;
 	
+	public Item(int id_item) {
+		this.id_item = id_item;
+	}
+	
 	public Item(String nome, String tipoQuantidade, int quantidade) {
 		super();
 		this.nome = nome;

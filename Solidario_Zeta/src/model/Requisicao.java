@@ -17,6 +17,17 @@ public class Requisicao {
 		
 	}
 	
+	public Requisicao(iRequisitavel itemRequisitado, Entidade requisitante, String dataRequisicao, String dataInicio, String dataFim, String motivo) {
+		this.itemRequisitado = itemRequisitado;
+		this.requisitante = requisitante;
+		this.dataRequisicao = dataRequisicao;
+		this.dataInicio = dataInicio;
+		this.dataFim = dataFim;
+		this.motivo = motivo;
+	}
+
+
+
 	public int getId() {
 		return id_requisicao;
 	}
@@ -70,7 +81,7 @@ public class Requisicao {
 	}
 	
 
-	protected boolean requisitar(iRequisitavel item, Entidade requisitante) {
+	public boolean requisitar() {
 		
 		return true;
 	}
