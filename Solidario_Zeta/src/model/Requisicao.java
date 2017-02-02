@@ -1,6 +1,5 @@
 package model;
 
-import java.util.Date;
 import tools.easyIO;
 
 public class Requisicao {
@@ -9,9 +8,9 @@ public class Requisicao {
 	private int id_requisicao;
 	private iRequisitavel itemRequisitado;
 	private Entidade requisitante;
-	private Date dataRequisicao;
-	private Date dataInicio;
-	private Date dataFim;
+	private String dataRequisicao;
+	private String dataInicio;
+	private String dataFim;
 	private String motivo;
 	
 	public Requisicao() {
@@ -38,27 +37,27 @@ public class Requisicao {
 		this.requisitante = requisitante;
 	}
 
-	public Date getDataRequisicao() {
+	public String getDataRequisicao() {
 		return dataRequisicao;
 	}
 
-	public void setDataRequisicao(Date dataRequisicao) {
+	public void setDataRequisicao(String dataRequisicao) {
 		this.dataRequisicao = dataRequisicao;
 	}
 
-	public Date getDataInicio() {
+	public String getDataInicio() {
 		return dataInicio;
 	}
 
-	public void setDataInicio(Date dataInicio) {
+	public void setDataInicio(String dataInicio) {
 		this.dataInicio = dataInicio;
 	}
 
-	public Date getDataFim() {
+	public String getDataFim() {
 		return dataFim;
 	}
 
-	public void setDataFim(Date dataFim) {
+	public void setDataFim(String dataFim) {
 		this.dataFim = dataFim;
 	}
 

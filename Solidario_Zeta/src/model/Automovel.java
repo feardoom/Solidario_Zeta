@@ -1,10 +1,9 @@
 package model;
 
-public class Automovel {
+public class Automovel implements iRequisitavel {
 	protected int id_automovel;
 	protected String marca;
 	protected String modelo;
-	protected String aaa;
 	
 	public int getId() {
 		return id_automovel;

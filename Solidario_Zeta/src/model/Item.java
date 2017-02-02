@@ -1,6 +1,6 @@
 package model;
 
-public class Item {
+public class Item implements iRequisitavel {
 	private int id_item;
 	private String nome;
 	private String tipoQuantidade;

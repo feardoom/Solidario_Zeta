@@ -6,7 +6,15 @@ public class Entidade {
 	protected int nif;
 	protected int niss;
 	protected String contacto;
-	
+		
+	public Entidade(String nome, String morada, int nif, int niss, String contacto) {
+		this.nome = nome;
+		this.morada = morada;
+		this.nif = nif;
+		this.niss = niss;
+		this.contacto = contacto;
+	}
+
 	public String getNome() {
 		return nome;
 	}

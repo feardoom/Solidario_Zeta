@@ -1,6 +1,6 @@
 package model;
 
-public class Sala {
+public class Sala implements iRequisitavel {
 	protected int id_sala;
 	protected String numero;
 	protected String funcao;
