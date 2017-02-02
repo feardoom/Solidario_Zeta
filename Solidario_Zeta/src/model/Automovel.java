@@ -4,7 +4,7 @@ public class Automovel {
 	protected int id_automovel;
 	protected String marca;
 	protected String modelo;
-	protected String modeloo;
+	protected String modelowwwwo;
 	
 	public int getId() {
 		return id_automovel;
